@@ -1,5 +1,5 @@
 
-# <p align=center>Air-Quality-Index-Prediction for BangloreCity city</p>
+# <p align=center>Air Quality Index Prediction for BangloreCity city</p>
 
 ## Problem Statement:
 
