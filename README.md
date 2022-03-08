@@ -49,7 +49,7 @@
 ```
 ## Data Preprocessing
 1. Data Cleaning & combinig:
- Since we extract the data using requests library it collects all the html content that is available on the requested url , but we don't need all that data, we need only data that is stored in tabular form, so we need to use beautiful library to scrap the data, for we created a function callled met_data.
+ Since we extract the data using requests library it collects all the html content that is available on the requested url , but we don't need all that data, we need only data that is stored in tabular form, so we need to use beautiful library to scrap the data, for this we created a function called met_data.
  #### What is Beautiful Soup?
  <p>Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.</p>
  
