@@ -8,7 +8,8 @@
 <p align="center">
 	<img src="https://editor.analyticsvidhya.com/uploads/80329Roadmap.PNG" alt="Logo">
 </p>
-## Data Collection:
+
+## Data Collection
 <p>
 
 <p>The Data collection is done from different sources, we collected data of independent features from  https://en.tutiempo.net/ website using python builtin library 'Requests' which sends html requests to extract data. Then downloaded dependent feature data from "https://github.com/krishnaik06/AQI-Project/tree/master/Data/AQI".</p>
