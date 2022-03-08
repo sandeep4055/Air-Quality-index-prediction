@@ -144,7 +144,7 @@ if __name__ == "__main__":
     # Check for paths exists if not create
     if not os.path.exists("Data/Real-Data"):
         os.makedirs("Data/Real-Data")
-    for year in range(2013, 2017):
+    for year in range(2013, 2019):
         final_data = []
         # Create the csv file and insert data into it by iterating over month & year
         with open('Data/Real-Data/real_' + str(year) + '.csv', 'w') as csvfile:
@@ -180,6 +180,9 @@ if __name__ == "__main__":
     data_2014 = data_combine(2014, 600)
     data_2015 = data_combine(2015, 600)
     data_2016 = data_combine(2016, 600)
+    data_2017 = data_combine(2017, 600)
+    data_2018 = data_combine(2018, 600)
+    
      
     total=data_2013+data_2014+data_2015+data_2016
     
@@ -191,7 +194,9 @@ if __name__ == "__main__":
         
         
 df=pd.read_csv('Data/Real-Data/Real_Combine.csv')
+
 ```
+* We created Real_Combine.csv file where we have 8 independent featues and 1 dependent features, since we preprocessed our data lets perform Exploratory data anlysis and Feature Engineering.
 
  
 
