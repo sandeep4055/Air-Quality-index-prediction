@@ -20,7 +20,7 @@
 -     import requests
 -     import sys        
 
-Now we create a function retive_html to extract data from website using url 
+*	Now we create a function retive_html to extract data from website using url 
 
 ```
   def retrieve_html():
@@ -98,7 +98,7 @@ no.of days in months vary.
 
     return finalD
 ```
-Now lets Deal with dependet features data , the data of dependent features has hourly data where as the data of independent features is in day wise data, so now we need to transform the hourly data into day wise data by averaging the data for every 24 hours.
+*	Now lets Deal with dependet features data , the data of dependent features has hourly data where as the data of independent features is in day wise data, so now we need to transform the hourly data into day wise data by averaging the data for every 24 hours.
 ```
   def avg_data_2013():
     temp_i=0
@@ -131,9 +131,9 @@ Now lets Deal with dependet features data , the data of dependent features has h
         average.append(avg)
     return average
 ```
-Similarly use the above function for all the years.
+* Similarly use the above function for all the years.
 
-Now lets combine the independent and dependent feautres into Real_combine.csv
+* Now lets combine the independent and dependent feautres into Real_combine.csv
 ```
 if __name__ == "__main__":
     # Check for paths exists if not create
