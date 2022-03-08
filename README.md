@@ -18,7 +18,10 @@
 -     import os
 -     import time
 -     import requests
--     import sys        
+-     import sys   
+-     import matplotlib.pyplot as plt 
+-     import pandas as pd
+-     from bs4 import BeautifulSoup    
 
 *	Now we create a function retive_html to extract data from website using url 
 
