@@ -198,5 +198,5 @@ df=pd.read_csv('Data/Real-Data/Real_Combine.csv')
 ```
 * We created Real_Combine.csv file where we have 8 independent featues and 1 dependent features, since we preprocessed our data lets perform Exploratory data anlysis and Feature Engineering.
 
- 
+ For model selection , exploratory data analysis , feature engineering you can refer the file -
 
